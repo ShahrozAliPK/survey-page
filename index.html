@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <h1>Survey Form</h1>
+        </div>
+
+        <span>Dark Modern Survey Form designed in HTML5 and CSS3</span>
+
+        <div id="name">
+            <label id="name-label"></label>
+            <input type="text" placeholder="Type your name here">
+        </div>
+        
+        <div id="email">
+            <label id="email-label"></label>
+            <input type="email" placeholder="Type your Email Here">
+        </div>
+        
+        <div id="age">
+            <label id="number-label"></label>
+            <input type="number" min="10" max="99" placeholder="Select your age">
+        </div>
+
+        <div id="dropdown">
+            <select>
+                <option disabled="" selected="" value="">Select your profession</option>
+                <option value="student">Student/Learner</option>
+                <option value="part-time-worker">Part-time Job</option>
+                <option value="full-time-worker">Full-time Job</option>
+                <option value="CEO">Manager/CEO</option>
+                <option value="Freelancer">Freelancer</option>
+                <option value="teacher">Teacher</option>
+                <option value="preferNO">Prefer Not to say</option>
+                <option value="other">Other</option>
+              </select>
+              
+        </div>
+        
+        <div id="radio">
+            <p>Do you like completing surveys?</p>
+                <label>
+                  <input class="input" name="user-input" type="radio" value="Yes"
+                      checked="">Yes</input>
+                </label>
+                <label>
+                  <input class="input" name="user-input" type="radio" value="No">No</input>
+                </label>
+                <label>
+                  <input class="input" name="user-input" type="radio" value="Sometimes">Sometimes</input>
+                </label>
+        </div>
+        
+        
+        <div id="checkboxes">
+            <p>Which topics you would like to study?</p>
+                <label>
+                  <input type="checkbox" name="option" value="English">English</input>
+                </label>
+                <label>
+                  <input type="checkbox" name="option" value="Mathematics">Mathematics</input>
+                </label>
+                <label>
+                  <input type="checkbox" name="option" value="Physics">Physics</input>
+                </label>
+                <label>
+                  <input type="checkbox" name="option" value="Chemistry">Chemistry</input>
+                </label>
+                <label>
+                  <input type="checkbox" name="option" value="Computer">Computer</input>
+                </label>
+                <label>
+                  <input type="checkbox" name="option" value="Medical">Medical</input>
+                </label>
+                
+        </div>
+        
+        <div id="comment-box">
+            <textarea name="comments" rows="8" cols="80"
+            placeholder="Enter your comments here"></textarea>
+        </div>
+        
+        <div id="submit">
+            <button type="button" name="submit">Submit</button>
+        </div>
+
+        <div id="footer">
+          <span>Designed By © <a href="https://github.com/ShahrozAliPK" alt="shahrozalipk-github">Syed Shehroz Ali.</a></span>
+        </div>
+
+    </div>
+</body>
+</html>
