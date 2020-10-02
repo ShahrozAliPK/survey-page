@@ -345,6 +345,8 @@ body{
             }
 
             #comment-box textarea{
+                width: 100%;
+                
                 background: none;
 
                 padding: 10px;
